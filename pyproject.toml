@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bblzaxjm-recsys_jd272"
+version = "0.1.0"
+description = "从样本里推断推荐系统算法工程师·显存碎片与分配策略应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "bblzaxjm" }]
+keywords = ["ai", "llm", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://bblzaxjm.github.io"
+Repository = "https://github.com/bblzaxjm/recsys_jd272"
+Issues = "https://github.com/bblzaxjm/recsys_jd272/issues"
+
+[project.scripts]
+recsys_jd272 = "recsys_jd272:main"
+
+[tool.setuptools]
+py-modules = ["recsys_jd272"]
